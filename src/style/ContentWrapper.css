@@ -1,0 +1,9 @@
+.content > .col > .row > div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header {
+    font-weight: 800;
+    font-size: large;
+}

@@ -1,0 +1,7 @@
+thead > tr > th {
+    text-align: center;
+}
+
+.headerNames {
+    font-size: larger;
+}

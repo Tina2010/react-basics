@@ -1,0 +1,42 @@
+.App {
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.backToTopContainer {
+    position: sticky;
+    display: flex;
+    bottom: 10px;
+    flex-direction: row-reverse;
+}
+
+.backToTopContainer a,
+.backToTopContainer a:hover,
+.backToTopContainer a:focus {
+    text-decoration: none;
+    color: white;
+    text-shadow: none;
+}
+
+.backToTopButton {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    background-color: rgb(26, 45, 61);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.backToTopButton text {
+    font-size: 12px;
+}
+
+.marginLeft {
+    margin-left: 10px;
+}
